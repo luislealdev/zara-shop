@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.max-width {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.ph-100 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ptb-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.grid-c-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-c-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.bg-blue {
+    background-color: #2A3439;
+}
+
+.white-text {
+    color: white;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
